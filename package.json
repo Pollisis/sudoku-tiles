@@ -1,0 +1,11 @@
+{
+  "name": "sudoku-tiles",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sudoku Tiles: a cozy wooden-tile sudoku. Static HTML/JS, no build step.",
+  "scripts": {
+    "test": "node tests/unit.js",
+    "e2e": "node tests/e2e.js",
+    "bank": "node generate-bank.js"
+  }
+}
